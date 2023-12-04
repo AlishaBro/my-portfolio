@@ -10,6 +10,10 @@
     --heading-font-family: "Playfair Display", serif;
    
 }
+.active{
+    color: black;
+    font-weight: 900px;
+}
 
 .homepage-content{
 
@@ -329,7 +333,8 @@ section{
 
          .contact-social-buttons {
              margin-left: -8px;
-             margin-bottom: 10px;
+            
+           
          }
 
 
@@ -351,11 +356,10 @@ section{
             margin-top: 10px;
          }
         
-         .work-inquiry h2{
-            line-height: 35px;
-            font-size: 22px;
-            margin-top: 0;
-            
+         .work-inquiry h2 {
+             line-height: 30px;
+             font-size: 24px;
+             margin-top: 4px;
          }
   .about-overlapping p {
                      padding: 0 40px;
@@ -406,12 +410,12 @@ section{
 @media (max-width:850px) {
     .homepage-content{
         text-align: center;
-        margin-bottom: 10px;
+       
     }
 
     .section{
         text-align: center;
-            padding: 0;
+            padding: 15px 30px;
     }
 
     h2 {
@@ -453,7 +457,9 @@ section{
        
      .contact-social-buttons{
      justify-content: center;
-     margin-bottom: 10px;
+    
+        margin-bottom: 44px;
+            margin-top: 20px;
     }
 
       
