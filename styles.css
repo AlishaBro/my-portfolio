@@ -1,604 +1,560 @@
 .body {
-    font-family: Poppins;
+  font-family: Poppins;
 }
-:root{
- 
-     /* --primary-color:#F9F5F6; linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 245, 245, 1) 60%); */
-    --primary-color: #F9F5F6;
-        
-    --font-family:poppins;
-    --heading-font-family: "Playfair Display", serif;
-   
+:root {
+  /* --primary-color:#F9F5F6; linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 245, 245, 1) 60%); */
+  --primary-color: #f9f5f6;
+
+  --font-family: poppins;
+  --heading-font-family: "Playfair Display", serif;
 }
-.active{
-    color: black;
-    font-weight: 900px;
+.active {
+  color: black;
+  font-weight: 900px;
 }
 
-.homepage-content{
-
-    background:var(--primary-color);
-    border-radius: 2rem;
+.homepage-content {
+  background: var(--primary-color);
+  border-radius: 2rem;
 }
 
-
-.my-picture{
-  
-    margin: 2px;
-    opacity: .97;
-    border-radius: 2rem;
-    width: 100%;
-
+.my-picture {
+  margin: 2px;
+  opacity: 0.97;
+  border-radius: 2rem;
+  width: 100%;
 }
 
-
-.linkedin,.git,.mail{
-   
-        transition: padding 1s;
-        padding: 15px;
-        font-size: 24px;
-        background-color: white;
-        margin: 10px;
-        border-radius: 50%;
-    
+.linkedin,
+.git,
+.mail {
+  transition: padding 1s;
+  padding: 15px;
+  font-size: 24px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
 }
 
-.social-icons:hover{
-    transform: scale(1.2);
-    padding: 15px;
+.social-icons:hover {
+  transform: scale(1.2);
+  padding: 15px;
 }
 
-
-h2{
-    margin-top: 160px;
-    font-size: 35px;
-    line-height: 21px;
-    
+h2 {
+  margin-top: 160px;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 5px;
+  margin-bottom: 20px;
 }
-h1{
-    font-size: 54px;
-    font-family: var(--heading-font-family);
+h1 {
+  font-size: 54px;
+  font-family: var(--heading-font-family);
 }
-h3{
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: bold;
-    font-family: var(--font-family)
-}
-
-p{
-    margin-top: 30px;
-    margin-bottom: 90px;
-    line-height: 1.5;
-    padding-right: 200px;
-    font-weight: normal;
-    font-size: 16px;
-    font-family:var(--font-family)
+h3 {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: var(--font-family);
 }
 
-.btn-work{
-    background-color: #000;
-    border-radius: 100rem;
-    margin: 10px;
-    padding: 14px;
-    font-size: .95rem;
-    transition: margin .35s, background-color .35s;
-    color:white;
+p {
+  margin-top: 30px;
+  margin-bottom: 54px;
+  line-height: 1.5;
+  padding-right: 15px;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: var(--font-family);
+}
+
+.special {
+  color: rgb(126 87 113);
+}
+.contact-social-buttons {
+  margin-left: -6px;
+}
+
+.btn-work {
+  background-color: #000;
+  border-radius: 100rem;
+  margin: 10px;
+  padding: 14px;
+  font-size: 0.95rem;
+  transition: margin 0.35s, background-color 0.35s;
+  color: white;
 }
 
 .btn-work:hover {
-    border: 1px solid #000;
+  border: 1px solid #000;
 }
 
 .btn-talk {
-    background-color: var(--primary-color);
-   
-    width: 9vw;
-    height: 9vw;
-    border-radius: 50%;
-    padding: 37px;
-    display: block;
-    font-size: .95rem;
-    transition: margin .35s, background-color .35s;
-    color: black;
-    text-align: center;
-    
-       
+  background-color: var(--primary-color);
+
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+  padding: 37px;
+  display: block;
+  font-size: 0.95rem;
+  transition: margin 0.35s, background-color 0.35s;
+  color: black;
+  text-align: center;
 }
 
-
-
-.btn-talk:hover{
-    transform: scale(1.2);
-    background-color: var(--primary-color);
-    padding: 37px;
-    color:black;
-    
-    
+.btn-talk:hover {
+  transform: scale(1.2);
+  background-color: var(--primary-color);
+  padding: 37px;
+  color: black;
 }
 
 .hero a {
-    font-family: var(--font-family);
-    display: block;
+  font-family: var(--font-family);
+  display: block;
 
-    margin: 0 auto;
-    font-size: 22px;
+  margin: 0 auto;
+  font-size: 22px;
 }
 
 .btn-secondary {
-    background-color: var(--primary-color);
-    /* border-radius: 100rem; */
-    margin: 10px;
-    padding: 14px;
-    font-size: .95rem;
-    transition: margin .35s, background-color .35s;
-    color: black;
-    border-radius: 10px;
+  background-color: var(--primary-color);
+  /* border-radius: 100rem; */
+  margin: 10px;
+  padding: 14px;
+  font-size: 0.95rem;
+  transition: margin 0.35s, background-color 0.35s;
+  color: black;
+  border-radius: 10px;
 }
 
-.nav-contents{
-    font-size: 14px;
+.nav-contents {
+  font-size: 14px;
 }
 
-.nav-contents:hover{
-    background-color: #F9F5F6;
-    border-radius: 5px;
+.nav-contents:hover {
+  background-color: #f9f5f6;
+  border-radius: 5px;
 }
 
-.nav-contents-contact{
-    font-size: 14px;
-    background-color: #000;
-    border-radius: 100rem;
-    transition: margin .35s, background-color .35s;
-    color: white;
+.nav-contents-contact {
+  font-size: 14px;
+  background-color: #000;
+  border-radius: 100rem;
+  transition: margin 0.35s, background-color 0.35s;
+  color: white;
 }
-.nav-contents-contact:hover{
-    background-color:var(--primary-color);
-    border-radius: 100rem;
-    color: black;
-
-}
-
-.hero{
-    /* background:rgb(255, 254, 254); */
-        background: black;
-    padding-top: 90px;
-        padding-bottom: 160px;
-        margin: 0;
+.nav-contents-contact:hover {
+  background-color: var(--primary-color);
+  border-radius: 100rem;
+  color: black;
 }
 
-.hero h2{
-    font-size: 36px;
-        font-weight: bold;
-        margin: 0;
-        color:var(--primary-color);
-        padding-top: 90px;
-        line-height: 21px;
+.hero {
+  /* background:rgb(255, 254, 254); */
+  background: black;
+  padding-top: 90px;
+  padding-bottom: 160px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--primary-color);
+  padding-top: 90px;
+  line-height: 21px;
 }
 
 .hero h1 {
-    font-size: 96px;
-    line-height: 1.5;
-    font-family: var(--heading-font-family);
-
+  font-size: 96px;
+  line-height: 1.5;
+  font-family: var(--heading-font-family);
 }
 
-
-
-.hero p{
-    color: var(--primary-color);
-    margin-bottom: 40px;
+.hero p {
+  color: var(--primary-color);
+  margin-bottom: 40px;
 }
 
-.content{
-    padding: 30px;
+.content {
+  padding: 30px;
 }
 
-.project-links{
-    margin:0;
+.project-links {
+  margin: 0;
 }
 
-.project-desc{
-    margin-bottom: 30px;
+.project-desc {
+  margin-bottom: 30px;
 }
 
-.hero .about-me{
-    padding: 0 110px;
-    margin-bottom: 60px;
+.hero .about-me {
+  padding: 0 110px;
+  margin-bottom: 60px;
 }
 
-.page-heading{
-        z-index: 1;
-            color: rgba(0, 0, 0, 0);
-            -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: #aaa;
-            white-space: normal;
-            font-size: 10rem;
-            line-height: 15rem;
-           
+.page-heading {
+  z-index: 1;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #aaa;
+  white-space: normal;
+  font-size: 10rem;
+  line-height: 15rem;
 }
 
-.content-spacing{
-    padding: 20px;
-    margin: 0 54px;
+.content-spacing {
+  padding: 20px;
+  margin: 0 54px;
 }
 
 .content h3 {
-    margin-top: 30px;
-    font-size: 23px;
-    line-height: 30px;
-    font-weight: bold;
-    font-family: var(--font-family);
-
+  margin-top: 30px;
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: var(--font-family);
 }
 
-.content h4{
-    font-size: 14px;
-        opacity: .7;
-        font-weight: bold;
+.content h4 {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: bold;
 }
 
-.about-overlapping{
-    position:relative;
-    top:-46%;
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-    margin-bottom: -202px;
-    
+.about-overlapping {
+  position: relative;
+  top: -46%;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: -202px;
 }
-.about-overlapping h1{
-    font-family: var(--font-family);
-    padding: 0 40px;
-    margin-top: -202px;
-    font-size: 30px;
+.about-overlapping h1 {
+  font-family: var(--font-family);
+  padding: 0 40px;
+  margin-top: -202px;
+  font-size: 30px;
 }
-.about-overlapping p{
-    padding: 0 40px;
-        font-family: 'Poppins';
-        font-weight: 600;
-        font-size: 16px;
+.about-overlapping p {
+  padding: 0 40px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
 }
 
-.skillset-container{
-    /* background-color: var(--primary-color);
+.skillset-container {
+  /* background-color: var(--primary-color);
     margin: 40px; */
-    padding: 40px;
-    background-color: black;
-    color:var(--primary-color);
+  padding: 40px;
+  background-color: black;
+  color: var(--primary-color);
 }
 
-.skillset-container h2,section,
-.work-inquiry h2{
-    margin-top: 30px;
-    padding-bottom: 0 20px 20px;
-    font-family: var(--heading-font-family);
-    font-size: 30px;
-    
+.skillset-container h2,
+section,
+.work-inquiry h2 {
+  margin-top: 30px;
+  padding-bottom: 0 20px 20px;
+  font-family: var(--heading-font-family);
+  font-size: 30px;
 }
 
-.about-container{
-    margin-bottom: -50px;
+.about-container {
+  margin-bottom: -50px;
 }
 
-section{
-    font-size: 20px;
-    padding-bottom: 25px;
+section {
+  font-size: 20px;
+  padding-bottom: 25px;
 }
 
-.work-inquiry{
+.work-inquiry {
+  padding: 50px 30px 40px;
+  margin-top: 20px;
+  background-color: var(--primary-color);
+  color: black;
+}
 
-
-    padding: 50px 30px 40px;
+@media (max-width: 1300px) {
+  p {
     margin-top: 20px;
-    background-color: var(--primary-color);
-    color: black
+    padding: 0;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--font-family);
+  }
 
-}
-
-
-@media (max-width:1300px) {
-
-   
-    p{
-        margin-top: 20px;
-        padding: 0;
-        margin-bottom: 32px;
-        font-size: 16px;
-        line-height: 1.5;
-        font-family: var(--font-family);
-    }
-
-   h2{
-    margin-top: 90px;
-    font-size: 22px;
-   }
-   h1{
+  h2 {
+    margin-top: 135px;
+    font-size: 16px;
+  }
+  h1 {
     font-size: 30px;
-   }
-    h3{
-        font-size: 16px;
-        font-family: var(--font-family);
-    }
-   
+  }
+  h3 {
+    font-size: 16px;
+    font-family: var(--font-family);
+  }
 
-    .btn-work,.btn-secondary{
-        padding: 12px;
-        margin: 10px;
-    }
-    .social-icons{
-        margin: 11px;
-        padding:12px;
-    }
+  .btn-work,
+  .btn-secondary {
+    padding: 12px;
+    margin: 10px;
+  }
+  .social-icons {
+    margin: 11px;
+    padding: 12px;
+  }
 
-         .contact-social-buttons {
-             margin-left: -8px;
-            
-           
-         }
+  /* .contact-social-buttons {
+    margin-left: -3px;
+  } */
 
+  /* ABOUT PAGE */
+  .about-overlapping {
+    top: -18%;
+  }
 
-         /* ABOUT PAGE */
-         .about-overlapping{
-            top:-18%
-         }
+  .skillset-container {
+    padding: 30px;
+  }
 
-         .skillset-container{
-            padding: 30px;
-         }
+  .skillset-container h2 {
+    font-size: 22px;
+    margin-top: 24px;
+  }
+  .work-inquiry {
+    padding: 16px 30px;
+    margin-top: 10px;
+  }
 
-         .skillset-container h2{
-            font-size: 22px;
-            margin-top: 24px;
-         }
-         .work-inquiry{
-            padding: 16px 30px;
-            margin-top: 10px;
-         }
-        
-         .work-inquiry h2 {
-             line-height: 30px;
-             font-size: 24px;
-             margin-top: 4px;
-         }
+  .work-inquiry h2 {
+    line-height: 30px;
+    font-size: 24px;
+    margin-top: 4px;
+  }
   .about-overlapping p {
-                     padding: 0 40px;
-                     font-family: 'Poppins';
-                     font-weight: 600;
-                     font-size: 12px;
-                 }
+    padding: 0 40px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+  }
 
-    section{
-        font-size: 17px;
-    }
-    .page-heading{
-        font-size: 6rem;
-        margin-bottom: -30px;
-        margin-top: -20px;
-            }
+  section {
+    font-size: 17px;
+  }
+  .page-heading {
+    font-size: 6rem;
+    margin-bottom: -30px;
+    margin-top: -20px;
+  }
 
-
- .hero a {
+  .hero a {
     font-family: var(--font-family);
     display: block;
     margin: 0 auto;
     font-size: 19px;
-}
- 
-    .btn-talk {
+  }
+
+  .btn-talk {
     background-color: var(--primary-color);
-   
+
     width: 9vw;
     height: 9vw;
     border-radius: 50%;
     padding: 20px;
     display: block;
-    font-size: .95rem;
-    transition: margin .35s, background-color .35s;
+    font-size: 0.95rem;
+    transition: margin 0.35s, background-color 0.35s;
     color: black;
     text-align: center;
-    
-       
+  }
 }
 
+@media (max-width: 850px) {
+  .homepage-content {
+    text-align: center;
+  }
 
+  .section {
+    text-align: center;
+    padding: 15px 30px;
+  }
 
+  h2 {
+    margin-top: 75px;
+    font-size: 13px;
+  }
 
+  h1 {
+    font-size: 25px;
+  }
 
-    }
+  h3 {
+    font-size: 13px;
+    line-height: 1.5;
+  }
 
-@media (max-width:850px) {
-    .homepage-content{
-        text-align: center;
-       
-    }
+  p {
+    padding: 15px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
 
-    .section{
-        text-align: center;
-            padding: 15px 30px;
-    }
+  .btn-work {
+    font-size: 10px;
 
-    h2 {
-            margin-top: 43px;
-            font-size: 18px;
-        }
-    
-        h1 {
-            font-size: 25px;
-        }
-    
-        h3 {
-            font-size: 13.5px;
-            line-height: 1.5;
-        }
-    
-        p {
-            padding: 15px;
-            font-size: 13px;
-           margin-bottom: 5px;
-            margin-top: 10px;
-            line-height: 1.5;
-        }
-    
-        .btn-work {
-        font-size: 10px;
-            
-            margin: 8px;
-            padding: 10px;
-        }
-    
-        .social-icons {
-            margin: 8px;
-                padding: 10px;
-        }
-        .linkedin,
-        .git,
-        .mail {font-size: 13px};
-       
-     .contact-social-buttons{
-     justify-content: center;
-    
-        margin-bottom: 44px;
-            margin-top: 20px;
-    }
+    margin: 8px;
+    padding: 10px;
+  }
 
-      
-    
-       
-       .content{
-        padding: 2px;
-        margin: 2px;
-        margin-bottom: 100px;
-       }
+  .social-icons {
+    margin: 8px;
+    padding: 10px;
+  }
+  .linkedin,
+  .git,
+  .mail {
+    font-size: 13px;
+  }
 
-       .content h2,.content a{
-        margin:16px;
-       }
+  .contact-social-buttons {
+    justify-content: center;
 
-       .content .project-desc {
-        margin-bottom: 10px;
-    }
+    margin-bottom: 44px;
+    margin-top: 20px;
+  }
 
-    /* work page */
+  .content {
+    padding: 2px;
+    margin: 2px;
+    margin-bottom: 100px;
+  }
 
-    .page-heading{
-        font-size: 9rem;
-    }
+  .content h2,
+  .content a {
+    margin: 16px;
+  }
 
-    .content-spacing{
-        margin-bottom: 45px;
-    }
+  .content .project-desc {
+    margin-bottom: 10px;
+  }
 
-    .about-page-heading{
-        font-size: 6rem;
-        margin-top: -23px;
-    }
+  /* work page */
 
- .hero a {
-     font-family: var(--font-family);
-     display: block;
-     margin: 0 auto;
-     font-size: 17px;
- }
+  .page-heading {
+    font-size: 9rem;
+  }
 
- .btn-talk {
-     background-color: var(--primary-color);
-
-     width: 9vw;
-     height: 9vw;
-     border-radius: 50%;
-     padding: 11px;
-     display: block;
-     font-size: .95rem;
-     transition: margin .35s, background-color .35s;
-     color: black;
-     text-align: center;
-
-
- }
-
- .hero p{
-    font-size: 14px;
- }
-
- 
-}
-
-@media (max-width:450px) {
-    .hero h2 {
-            
-            padding-top: 35px;
-        }
-    .hero .about-me{
-        padding: 30px;
-        margin-bottom: 30px;
-        padding-top: 20px;
-    }
-   
-    .hero {
-        padding-bottom: 130px;
-    }
-
-    .content-container, .content{
-        margin:0;
-        padding:0;
-        text-align: center;
-
-    }
-
-    .content h2{
-        font-size: 22px;
-    }
-
-        .content .project-desc {
-        margin-bottom: 0px;
-    }
-
-       /* work page */
-
-    .page-heading{
-        font-size: 5rem;
-        margin-bottom: -30px;
-        
-    }
   .content-spacing {
-        margin: 15px;
-         }
+    margin-bottom: 45px;
+  }
 
-    .about-overlapping{
-        margin-bottom: 47px;
-    }
+  .about-page-heading {
+    font-size: 6rem;
+    margin-top: -23px;
+  }
 
-    .skillset-container{
-        margin-bottom: 15px;
-    }
   .hero a {
-     
+    font-family: var(--font-family);
+    display: block;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+
+  .btn-talk {
+    background-color: var(--primary-color);
+
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    padding: 11px;
+    display: block;
+    font-size: 0.95rem;
+    transition: margin 0.35s, background-color 0.35s;
+    color: black;
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero h2 {
+    padding-top: 35px;
+  }
+  .hero .about-me {
+    padding: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+  }
+
+  .hero {
+    padding-bottom: 130px;
+  }
+
+  .content-container,
+  .content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 22px;
+  }
+
+  .content .project-desc {
+    margin-bottom: 0px;
+  }
+
+  /* work page */
+
+  .page-heading {
+    font-size: 5rem;
+    margin-bottom: -30px;
+  }
+  .content-spacing {
+    margin: 15px;
+  }
+
+  .about-overlapping {
+    margin-bottom: 47px;
+  }
+
+  .skillset-container {
+    margin-bottom: 15px;
+  }
+  .hero a {
     margin: 30px 140px;
     margin-bottom: 30px;
   }
-
- 
-
 }
 
-@media (max-width:390px) {
+@media (max-width: 390px) {
+  .about-overlapping {
+    margin-bottom: 15px;
+  }
 
-    .about-overlapping {
-            margin-bottom: 15px;
-        }
+  .hero h2 {
+    padding-top: 35px;
+  }
 
-        .hero h2 {
-            
-            padding-top: 35px;
-        }
+  .hero a {
+    margin-bottom: 30px;
+  }
 
-        .hero a{
-            margin-bottom: 30px;
-        }
-    
-         .hero {
-        padding-bottom: 130px;
-    }
+  .hero {
+    padding-bottom: 130px;
+  }
 }
-
